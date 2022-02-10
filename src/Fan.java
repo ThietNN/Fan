@@ -5,6 +5,9 @@ public class Fan {
     String color = "blue";
     boolean status = false;
 
+    public Fan(){
+    }
+
     public Fan(int speed,int radius,String color){
         this.speed = speed;
         this.radius = radius;
